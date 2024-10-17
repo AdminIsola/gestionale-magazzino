@@ -1,0 +1,18 @@
+.hidden {
+    display: none !important;
+}
+
+/* Animazioni */
+.fade-in {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+/* Transizioni */
+.transition-all {
+    transition: all 0.3s ease;
+}
